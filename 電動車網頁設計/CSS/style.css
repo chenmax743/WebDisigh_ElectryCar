@@ -46,3 +46,8 @@ input, textarea {
   width:300px;
   margin: 1em;
 }
+
+.row{
+    display;flex;
+    gap:1em;
+}
