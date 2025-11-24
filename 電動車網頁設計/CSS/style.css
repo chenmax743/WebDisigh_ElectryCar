@@ -1,53 +1,6 @@
-:root {
-  --color-bg-primary: #121212;
-  --color-bg-secondary: #1E1E1E;
-  --color-text-primary: #E0E0E0;
-  --color-accent: #00BFFF;
-  --color-error: #FF4C4C;
-}
-
-body {
-  background-color: var(--color-bg-primary);
-  color: var(--color-text-primary);
-}
-
-header, footer {
-  background-color: var(--color-bg-secondary);
-  color: var(--color-text-primary);
-}
-
-a {
-  color: var(--color-accent);
-  text-decoration: none;
-}
-
-button {
-  background-color: var(--color-bg-secondary);
-  color: var(--color-text-primary);
-  border: 1px solid var(--color-accent);
-}
-
-input, textarea {
-  background-color: var(--color-bg-secondary);
-  color: var(--color-text-primary);
-  border: 1px solid #444;
-}
-
-.error {
-  color: var(--color-error);
-}
-
-.product_Card{
-  background-color: #1E1E1E;
-  color: #E0E0E0;
-  border: 1px solid #00BFFF;
-  border-radius: 8px;
-  padding:1em;
-  width:300px;
-  margin: 1em;
-}
-
-.row{
-    display;flex;
-    gap:1em;
+p,
+ul,
+h1
+{
+  color : red;
 }
